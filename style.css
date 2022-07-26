@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(img\clock.png) no-repeat center center/cover;
+    background: url(img/clock.png) no-repeat center center/cover;
     border: 4px solid #091921;
     border-radius: 50%;
     box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
@@ -41,11 +41,13 @@ body {
 .clock .min,
 .clock .sec{
     position: absolute;
+    /* border: 5px solid white; */
 }
 
 .clock .hour, .hr{
     width: 160px;
     height: 160px;
+    /* border: 1px solid green; */
    
 }
 
@@ -59,6 +61,8 @@ body {
     height: 230px;
     /* border: 2px solid white; */
 }
+
+
 
 .hr, .mn, .sc{
     display: flex;
